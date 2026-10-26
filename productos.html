@@ -8,51 +8,55 @@
 <link rel="stylesheet" href="CSS/style_header_footer.css"/>
 </head>
 <body>
-<header>
-  <!-- inicia el header ya creado, en edicion -->
+    <header>
       <ul id="topbar">
         <li class="topbar_box">
-          <img id="company_logo" src="IMG/SVG/Logo.svg" alt="Logo"></img>
+          <img id="company_logo" src="IMG/SVG/logo.svg" alt="Logo"></img>
         </li>
         <li class="topbar_box">
-          <h1 class="company_name_ferre">Ferre</h1>
+           <!-- division-->
+            <h1 class="company_name">
+              <span class="text-ferre">Ferre</span><span class="text-luis">Luis</span>
+            </h1>
+        </li>
+        <!-- division-->
+        <li class="topbar_box">
+          <input class="search_bar" type="text" placeholder="🔍"><button class="search_bar">Buscar</button>
+      </li>
+        <li class="topbar_box">
+          <button class="direct_access"><img src="images/cart.png" alt="Compra" width="50px" height="50px"></img></button>
         </li>
         <li class="topbar_box">
-        <h2 class="topbar_text"><a class="topbar_link" href="index.html">Inicio</a></h2>
-        </li>
-        <li class="topbar_box">
-        <h2 class="topbar_text"><a class="topbar_link" href="productos.html">Catálogo</a></h2>
-        </li>  
-        <div class="actual_page">
-        <li class="topbar_box">
-        <h2 class="topbar_text"><a class="topbar_link" href="servicio.html">Servicios</a></h2>
-        </li>
-        </div>
-        <li class="topbar_box">
-        <h2 class="topbar_text"><a class="topbar_link" href="nosotros.html">Nosotros</a></h2>
-        </li>
-        <li class="topbar_box">
-        <h2 class="topbar_text"><a class="topbar_link" href="desarrolladores.html">Desarrolladores</a></h2>
-        </li>
-        <li class="topbar_box">
-        <h2 class="topbar_text"><a class="topbar_link" href="contacto.html">Contacto</a></h2>
-        </li>
-        <li class="topbar_box">
-        <input class="search_bar" type="text" placeholder="🔍"><button class="search_bar">Buscar</button>
-        </li>
-        <li class="topbar_box">
-        <button class="direct_access"><img src="images/cart.png" alt="Compra" width="50px" height="50px"></img></button>
-        </li>
-        <li class="topbar_box">
-        <button class="direct_access"><img src="images/profile.jpg" alt="Registro" width="50px" height="50px"</img></button>
+          <button class="direct_access"><img src="images/profile.jpg" alt="Registro" width="50px" height="50px"></img></button>
         </li>
       </ul>
-  <!-- termina el header ya creado, en edicion -->
-  <div id="raya"></div>
-  <h2>Nuestro Cat&aacute;logo de Productos.</h2>
-  <p>Explora las mejores herramientas profesionales y residenciales. Conoce nuestras promociones vigentes<br>con descuentos exclusivos de temporada.</p>
-</header>
-
+      <!--comienza la barra de navegacion-->
+      <nav>
+        <ul id="topbar">
+          <div class="actual_page">
+            <li class="topbar_box">
+              <h2 class="topbar_text"><a class="topbar_link" href="index.html">Inicio</a></h2>
+            </li>
+          </div>
+          <li class="topbar_box">
+            <h2 class="topbar_text"><a class="topbar_link" href="productos.html">Catálogo</a></h2>
+          </li>  
+          <li class="topbar_box">
+            <h2 class="topbar_text"><a class="topbar_link" href="servicio.html">Servicios</a></h2>
+          </li>
+          <li class="topbar_box">
+            <h2 class="topbar_text"><a class="topbar_link" href="nosotros.html">Nosotros</a></h2>
+           </li>
+          <li class="topbar_box">
+            <h2 class="topbar_text"><a class="topbar_link" href="desarrolladores.html">Desarrolladores</a></h2>
+          </li>
+          <li class="topbar_box">
+            <h2 class="topbar_text"><a class="topbar_link" href="#contacto.html">Contacto</a></h2>
+          </li>
+        </ul>  
+      </nav>  
+      <!--termina la barra de navegacion-->
+    </header>
 <nav>
   <div id="mira"></div>
   <input type="text" id="silent">
