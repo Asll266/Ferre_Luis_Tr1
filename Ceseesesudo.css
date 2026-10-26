@@ -1,0 +1,115 @@
+body {
+  font-family: sans-serif;
+  color: #525f83;
+}
+#raya {
+  background-color: #525f83;
+  width: 0.1875rem;
+  height: 4rem;
+}
+h2 {
+  position: relative;
+  bottom: 5.375rem;
+  left: 0.5rem;
+}
+p {
+  position: relative;
+  bottom: 6.5625rem;
+  left: 0.5rem;
+  line-height: 1.3;
+}
+nav {
+  position:relative;
+  top: 0.625rem;
+}
+#mira {
+  background-color: #d0daef;
+  width: 63.4375rem;
+  height: 5.25rem;
+  position: relative;
+  bottom: 7.9375rem;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+}
+#silent {
+  position: relative;
+  bottom: 12.6875rem;
+  left: 1.5625rem;
+  width: 26rem;
+  height: 1.25rem;
+}
+.boton {
+  padding: 0.125rem;
+  background-color: white;
+  border: 0.0625rem solid #525f83;
+  width: 7.8125rem;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+}
+#solo {
+  position: relative;
+  left: 48.25rem;
+  bottom: 14.3125rem;
+  width: 9.375rem;
+}
+#todo {
+  position: relative;
+  left: 1.5625rem;
+  bottom: 13.0625rem;
+}
+#h {
+  position: relative;
+  left: 10.25rem;
+  bottom: 14.5625rem;
+}
+#x {
+  position: relative;
+  left: 18.875rem;
+  bottom: 16.0625rem;
+}
+li {
+  background-color: #d0daef;
+  width: 14.3125rem;
+  height: 18.75rem;
+  display: inline-block;
+  color: black;
+  position: relative;
+  bottom: 15.25rem;
+  right: 2.8125rem;
+  margin-left: 0.3125rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  vertical-align: top;
+}
+li img {
+  width: 9.375rem;
+  height: 9.375rem;
+  display: block;
+  margin-bottom: 0.5rem;
+  position: relative;
+  top: 0.625rem;
+  left: 2.5rem;
+}
+li span {
+  position: relative;
+  top: 0.6875rem;
+}
+.desc {
+  color: #525f83;
+  font-size: 0.8125rem;
+}
+.prize {
+  font-size: 0.8125rem;
+  text-align: left;
+  display: block;
+  width: 10%;
+}
+#car {
+  background-color: transparent;
+  color: #525f83;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  bottom: 0.9375rem;
+}

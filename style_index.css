@@ -1,0 +1,105 @@
+/* ---------- Sección de inicio: (Hero) ---------- */
+#hero {
+  background-color: #eff6fe;
+  padding: 48px 64px;
+  .hero_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .hero_text {
+    font-family: "Montserrat", serif;
+    max-width: 520px;
+    h2[class="hero_title"] {
+      color: #0e49a1;
+      font-size: 24.8pt;
+    }
+    .hero_highlight {
+      color: #2E96E0;
+    }
+    p[class="hero_paragraph"] {
+      color: #686868;
+      font-size: 12.2pt;
+    }
+    .hero_badges {
+      display: flex;
+      list-style: none;
+      margin: 16px 0;
+      padding: 0;
+      .hero_badge {
+        background-color: #DCE9FC;
+        color: #0E32A1;
+        border: 0.1px solid #3763EA;
+        margin-right: 12px;
+        padding: 8px 16px;
+        font-size: 10.4pt;
+      }
+    }
+    .hero_buttons {
+      display: flex;
+      .hero_btn {
+        text-decoration: none;
+        margin-right: 12px;
+        padding: 12px 24px;
+        font-size: 12.2pt;
+        font-weight: bold;
+      }
+      .hero_btn_filled {
+        background-color: #3763EA;
+        color: #ffffff;
+        border: none;
+      }
+      .hero_btn_outline {
+        background-color: #ffffff;
+        color: #3763EA;
+        border: 1px solid #3763EA;
+      }
+    }
+  }
+  .hero_image_box {
+    background-color: #DCE9FC;
+    font-family: "Montserrat", serif;
+    width: 450px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+}
+/* ---------- Sección de inicio: (Catálogo simple)---------- */
+#catalogo {
+  padding: 32px 64px;
+  .catalogo_title {
+    font-family: "Montserrat", serif;
+    color: #0E32A1;
+    text-align: center;
+  }
+  .catalogo_list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+ }
+    .catalogo_item {
+      margin: 16px;
+      text-align: center;
+
+  }
+      .catalogo_image_box {
+        width: 140px;
+        height: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+
+      .catalogo_text {
+        color: #0E32A1;
+        font-family: "Montserrat", serif;
+        font-size: 10.4pt;
+      }
+}
+
+/*hasta aqui hecho el index por ahora*/

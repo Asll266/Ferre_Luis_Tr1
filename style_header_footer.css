@@ -1,0 +1,183 @@
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat-Regular.otf") format("opentype");
+  font-family: "Bree Serif";
+  src: url("fonts/BreeSerif-Regular.ttf") format("truetype");
+}
+/*header*/
+#topbar {
+  background-color: #D1DCF1;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+#company_logo { 
+  margin-top: 0;
+  margin-left: 1px;
+  display: flex;
+  list-style: none;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+}
+  .topbar_box {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+  }
+  .company_name_ferre {
+    margin-top: 24px;
+    color: #2f4f4f;
+    text-align: center;
+    font-family: "Montserrat", serif;
+    font-size: 25.0pt;
+  }
+  header .company_name_ferre {
+    margin-bottom: 1rem;
+  }
+
+  .company_name_ferre::after { 
+    margin-top: 24px;
+    color:  #2F6383;
+    /* tentativo?#8bb0ff*/
+    text-align: center;
+    content: "Luis";
+    font-size: 25.00pt;
+  }
+  .topbar_link:link {
+    text-decoration: none;
+  }  
+  .topbar_text {
+    font-family: "Bree Serif", serif;
+    margin: 0 0 0 7px;
+    text-align: center;
+    font-size: 18.00pt;
+  }
+  .actual_page {
+    background-color: #DCE9FC;
+  }
+  .search_bar {
+    border: 2px solid #2F6383;
+    padding-right: 50px;
+  }
+  button[class="search_bar"] {
+    color: white;
+    background-color: #2F6383;
+    border: 2px solid #2F6383;
+    font-weight: bold;
+    padding-right: 25px;
+  }
+  .direct_access {
+    background-color: #D1DCF1;
+    border: none;
+  }
+
+
+/* footer*/
+#bottom {
+  background-color: #191970;
+  color: #87ceeb;
+  display: flex;
+  height: 12.3rem;
+  list-style: none;
+  justify-content: space-between;
+  position: relative;
+  top: 1.6rem;
+  .foot1 {
+    /*keyword cambio a llamarse logofooter*/
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    .logofooter { 
+      position: relative;
+      bottom: 0.8rem;
+      width: 70px;
+      height: 70px;
+    }
+    h2[class="company_name_ferre"] {
+      position: relative;
+      bottom: 5.8rem;
+      left: 0.4rem;
+      color: #ffffff;
+    }    
+    p[class="bottom_description"] {
+      position: relative;
+      bottom: 6.2rem;
+    }
+  }
+  .foot2 {
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+  }  
+  .foot3 {
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+  }
+  .foot4 {
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+  }
+  h3[class="bottom_text"] {
+    color: #1e90ff;
+    margin: 0.1rem;
+    padding: 0.1rem;
+    text-transform: uppercase;
+  }
+  h3[class="bottom_description"] {
+    color: #1e90ff;
+    top: 2px;
+    left: 4px;
+    margin: 0.1rem;
+    bottom: 0.1rem;
+  }
+  .bottom_box {
+
+    padding: 1rem;
+    li[class="bottom_text"] {
+      margin: 0.1rem;
+      padding: 0.1rem;
+      list-style: none;
+    }
+    a[class="bottom_link"] {
+    text-decoration: none;
+    }
+    a[class="bottom_link"]:link {
+      color: #5f9ea0;
+    }
+    a[class="bottom_link"]:visited {
+      color: #8be8ff;
+
+      /*el color era #8a2be2;*/
+    }
+  }  
+}  
+hr {
+  position: relative;
+  bottom: 0.1rem;
+}
+.copyright {
+  background-color: #191970;
+  color: #87ceeb;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  .right1 {
+    text-align: left;
+  }
+  .right2 {
+    text-align: left;
+  }
+  .social_network {
+    position: relative;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
