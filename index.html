@@ -2,8 +2,10 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8"/>
-      <link rel="stylesheet" href="style_header_footer.css"/>
-      <link rel="stylesheet" href="style_index.css"/>
+    <!--deshabilitar el escalado automático de la página web para mayor control de las posiciones
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>-->    
+      <link rel="stylesheet" href="css/style_header_footer.css"/>
+      <link rel="stylesheet" href="css/style_index.css"/>
     <title>Ferre Luis</title>
   </head>
   <body>
@@ -13,8 +15,12 @@
           <img id="company_logo" src="IMG/SVG/logo.svg" alt="Logo"></img>
         </li>
         <li class="topbar_box">
-          <h1 class="company_name_ferre">Ferre</h1>
+           <!-- division-->
+            <h1 class="company_name">
+              <span class="text-ferre">Ferre</span><span class="text-luis">Luis</span>
+            </h1>
         </li>
+        <!-- division-->
         <li class="topbar_box">
           <input class="search_bar" type="text" placeholder="🔍"><button class="search_bar">Buscar</button>
       </li>
@@ -25,7 +31,7 @@
           <button class="direct_access"><img src="images/profile.jpg" alt="Registro" width="50px" height="50px"></img></button>
         </li>
       </ul>
-      <!--barra de navegacion-->
+      <!--comienza la barra de navegacion-->
       <nav>
         <ul id="topbar">
           <div class="actual_page">
@@ -34,7 +40,7 @@
             </li>
           </div>
           <li class="topbar_box">
-            <h2 class="topbar_text"><a class="topbar_link" href="#catalogo">Catálogo</a></h2>
+            <h2 class="topbar_text"><a class="topbar_link" href="productos.html">Catálogo</a></h2>
           </li>  
           <li class="topbar_box">
             <h2 class="topbar_text"><a class="topbar_link" href="servicio.html">Servicios</a></h2>
@@ -50,10 +56,8 @@
           </li>
         </ul>  
       </nav>  
-      <!--fin de la barra de navegacion-->
+      <!--termina la barra de navegacion-->
     </header>
-    <main>
-      </header>
     <main>
       <section id="hero">
         <div class="hero_content">
@@ -138,9 +142,7 @@
             <img class="social_network" src="IMG/SVG/whatsapp.svg" width="50px" height="50px"></img>
           </ul>
         </li>
-        </li>
-        
-        descartado(?)-->
+        </li>-->
       </ul>
       <hr>
       <span class="copyright">

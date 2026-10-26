@@ -26,7 +26,7 @@
     align-items: center;
     margin-right: 16px;
   }
-  .company_name_ferre {
+  /*.company_name_ferre {
     margin-top: 24px;
     color: #2f4f4f;
     text-align: center;
@@ -40,11 +40,27 @@
   .company_name_ferre::after { 
     margin-top: 24px;
     color:  #2F6383;
-    /* tentativo?#8bb0ff*/
+    /*comentario: tentativo?#8bb0ff*//*
     text-align: center;
     content: "Luis";
     font-size: 25.00pt;
-  }
+  } 
+  */
+.company_name {
+    margin: 0;
+    font-family: "Montserrat", serif;
+    font-size: 25pt;
+}
+
+/* Color de "Ferre" */
+.text-ferre {
+    color: #2f4f4f;
+}
+
+/* Color de "Luis" */
+.text-luis {
+    color: #2f6383;
+}
   .topbar_link:link {
     text-decoration: none;
   }  
