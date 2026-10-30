@@ -54,12 +54,17 @@
 
 /* Color de "Ferre" */
 .text-ferre {
+    display: inline-block;
     color: #2f4f4f;
-}
+    text-align: left;
+
+  }
 
 /* Color de "Luis" */
 .text-luis {
+    display: inline-block;
     color: #2f6383;
+    text-align: left;
 }
   .topbar_link:link {
     text-decoration: none;
