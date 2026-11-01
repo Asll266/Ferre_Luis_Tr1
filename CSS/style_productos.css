@@ -18,27 +18,25 @@ p {
   left: 0.5rem;
   line-height: 1.3;
 }
-nav {
+.productos_funciones {
   position:relative;
   top: 0.625rem;
 }
-#mira {
+#productos_cuadro {
   background-color: #d0daef;
   width: 63.4375rem;
   height: 5.25rem;
   position: relative;
   bottom: 7.9375rem;
-  margin-left: calc(-50vw + 50%);
-  margin-right: calc(-50vw + 50%);
 }
-#silent {
+#productos_buscar {
   position: relative;
   bottom: 12.6875rem;
   left: 1.5625rem;
   width: 26rem;
   height: 1.25rem;
 }
-.boton {
+.productos_botones {
   padding: 0.125rem;
   background-color: white;
   border: 0.0625rem solid #525f83;
@@ -47,23 +45,23 @@ nav {
   user-select: none;
   -webkit-user-select: none;
 }
-#solo {
+#productos_botonpromociones {
   position: relative;
   left: 48.25rem;
   bottom: 14.3125rem;
   width: 9.375rem;
 }
-#todo {
+#productos_botontodos {
   position: relative;
   left: 1.5625rem;
   bottom: 13.0625rem;
 }
-#h {
+#productos_botonherramientas {
   position: relative;
   left: 10.25rem;
   bottom: 14.5625rem;
 }
-#x {
+#productos_botonx2 {
   position: relative;
   left: 18.875rem;
   bottom: 16.0625rem;
@@ -95,17 +93,17 @@ li span {
   position: relative;
   top: 0.6875rem;
 }
-.desc {
+.productos_descripcion {
   color: #525f83;
   font-size: 0.8125rem;
 }
-.prize {
+.productos_precio {
   font-size: 0.8125rem;
   text-align: left;
   display: block;
   width: 10%;
 }
-#car {
+#productos_botoncarrito  {
   background-color: transparent;
   color: #525f83;
   text-align: center;
