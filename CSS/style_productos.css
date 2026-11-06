@@ -7,12 +7,12 @@ body {
   width: 0.1875rem;
   height: 4rem;
 }
-h2 {
+.productos_titulo {
   position: relative;
   bottom: 5.375rem;
   left: 0.5rem;
 }
-p {
+.productos_explicacion {
   position: relative;
   bottom: 6.5625rem;
   left: 0.5rem;
@@ -66,7 +66,7 @@ p {
   left: 18.875rem;
   bottom: 16.0625rem;
 }
-li {
+.productos_muestra li {
   background-color: #d0daef;
   width: 14.3125rem;
   height: 18.75rem;
@@ -80,7 +80,7 @@ li {
   border-radius: 0.5rem;
   vertical-align: top;
 }
-li img {
+.productos_muestra img {
   width: 9.375rem;
   height: 9.375rem;
   display: block;
@@ -89,25 +89,25 @@ li img {
   top: 0.625rem;
   left: 2.5rem;
 }
-li span {
-  position: relative;
-  top: 0.6875rem;
-}
 .productos_descripcion {
   color: #525f83;
   font-size: 0.8125rem;
+  position: relative;
+  bottom: 8px;
 }
 .productos_precio {
   font-size: 0.8125rem;
   text-align: left;
   display: block;
   width: 10%;
+  position: relative;
+  bottom: 13px;
 }
-#productos_botoncarrito  {
+#productos_botoncarrito {
   background-color: transparent;
   color: #525f83;
   text-align: center;
   display: inline-block;
   position: relative;
-  bottom: 0.9375rem;
+  bottom: 38px;
 }
